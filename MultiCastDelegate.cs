@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApps
 {
+
+
+
+
     public delegate void DelRecPer(double h, double w);
     public delegate void DelRecArea(double h, double w);
     class MultiCastDelegate
