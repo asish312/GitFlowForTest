@@ -10,10 +10,12 @@ namespace ConsoleApps
     {
         public Program()
         {
-			
             Console.WriteLine("This is Default Parent Constructor has called in Program");
         }
 
+        
+        //Tested
+        
         public void Method1()
         {
             Console.WriteLine("This is Default Parent Method has called in Program");
