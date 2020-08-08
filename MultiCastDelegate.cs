@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApps
 {
-
-
-
-
     public delegate void DelRecPer(double h, double w);
     public delegate void DelRecArea(double h, double w);
     class MultiCastDelegate
@@ -18,6 +14,9 @@ namespace ConsoleApps
         {
             Console.WriteLine("Rectangle Perimeter={0}",2*(h+w));
         }
+
+
+        //Hello This is Asish testing
         public void RecArea(double h,double w)
         {
             Console.WriteLine("Rectangle Area={0}", h*w);
